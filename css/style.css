@@ -84,3 +84,18 @@ label {
 	
 	background-size: cover;
 }
+
+h1 {
+	animation: h1;
+	animation-duration: 1s;
+}
+@keyframes h1{
+	0% {
+		opacity: 0;
+		
+	}
+	100% {
+		opacity: 1;
+		
+	}
+}
