@@ -1,0 +1,71 @@
+body {
+	background-color: pink;
+	font-family: tahoma;
+	margin: 0px;
+	height: 800px;
+}
+.picture-bio {
+	display: flex;
+}
+.padding {
+	padding: 0px 50px;
+}
+
+
+.ol-normal {
+	padding:  0px;
+}
+
+nav {
+	text-transform: capitalize;
+	background-color:  white;
+	padding: 20px 0px;
+	width:  100%;
+	background-color: #ffabba;
+	position: fixed;
+	top:  0px;
+}
+
+nav a {
+	color:  #6fb1f5;
+}
+
+
+.body {
+	padding:  80px 50px;
+}
+
+input {
+	padding: 10px;
+	width:  30%;
+	margin-bottom: 10px;
+	border-radius:  3px;
+	border:  0px;
+}
+
+textarea {
+	height: 150px;
+	width:  350px;
+}
+
+input[type='submit'] {
+	background-color:  #e5758a;
+	color:  white;
+	font-weight:  bold;
+	text-transform: uppercase;
+	width:  30%;
+	margin-top: 20px;
+}
+
+#absolute-position-img {
+	position: absolute;
+	left: 500px;
+	top: 150px;
+}
+
+label {
+	display: block;
+	padding-bottom: 5px;
+	opacity: .5;
+	font-size: 14px;
+}
